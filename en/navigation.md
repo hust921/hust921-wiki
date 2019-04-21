@@ -8,18 +8,22 @@
 
 
 <!-- -- Navigation -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
+
+
 [Python](pages/python.md)
+
 [Shell](pages/shell.md)
 
 [About]()
 
-  * # Meta
-  * [Github repo](https://hust921.github.io/hust921-wiki)
-
+  * # hust921
+  * [Github repo](https://github.com/hust921/hust921-wiki)
+  - - - -
   * # mdwiki
   * [Website](http://mdwiki.info/)
   * [About](pages/mdwiki/about.md)
   * [Download](pages/mdwiki/download.md)
+  * [Github repo](https://github.com/exalted/mdwiki-seed)
 
 
 <!--
