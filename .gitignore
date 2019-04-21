@@ -102,3 +102,6 @@ sftp-config.json
 
 # Notepad++ backups #
 *.bak
+
+# Ignore en_US -> en soft-link for local debugging
+/en_US
