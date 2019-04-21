@@ -1,34 +1,22 @@
 <!--
-  -- Name of your wiki
-  -- Do NOT remove the leading `#` character.
-  -->
-
+  -- Name of your wiki -- Do NOT remove the leading `#` character.  --> 
 # hust921 Personal
 
-
-<!--
-  -- Default theme
-  -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
-  -->
-
+<!-- -- Default theme -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser) -->
 [gimmick:theme](cosmo)
 
 
-<!--
-  -- Navigation
-  -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
-  -->
-
-[Python](pages/python.md)
-  * [Modules](pages/modules)
-[Shell](pages/shell.md)
-  * [Grep](pages/grep.md)
-  * [Zsh](pages/zsh.md)
+<!-- -- Navigation -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
+[Python](pages/python/python.md)
+  * [Modules](pages/python/modules.md)
+[Shell](pages/shell/shell.md)
+  * [Grep](pages/shell/grep.md)
+  * [Zsh](pages/shell/zsh.md)
 
 [mdWiki]()
   * # Misc Information
-  * [About](pages/about.md)
-  * [Download](pages/download.md)
+  * [About](pages/mdwiki/about.md)
+  * [Download](pages/mdwiki/download.md)
 
 <!-- A more complex navigation example: ----------------------------------------
 
