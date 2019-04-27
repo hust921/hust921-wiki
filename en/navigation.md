@@ -14,6 +14,12 @@
 
 [Shell](pages/shell.md)
 
+[Vim](pages/vim.md)
+
+[VisualStudio](pages/visualstudio.md)
+
+[Links](pages/links.md)
+
 [About]()
 
   * # hust921
