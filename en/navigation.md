@@ -9,6 +9,7 @@
 
 <!-- -- Navigation -- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation) -->
 
+[Web](pages/web.md)
 
 [Python](pages/python.md)
 
