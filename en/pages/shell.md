@@ -12,6 +12,11 @@ ssh-add ~/.ssh/id_rsa
 
 Now place `id_rsa.pub` on the server.
 
+
+**Identify**
+<pre><code class="bash">ssh-add ~/.ssh/mykey
+</code></pre>
+
 **Run at startup**
 To automatically use key, setup `ssh-agent` to run in bashrc/zshrc/etc.
 
