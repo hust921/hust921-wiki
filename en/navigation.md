@@ -17,7 +17,17 @@
 
 [Vim](pages/vim.md)
 
-[VisualStudio](pages/visualstudio.md)
+[Microsoft](pages/microsoft.md)
+
+[Exploit](pages/exploit.md)
+
+[C](pages/c.md)
+
+[Rust](pages/rust.md)
+
+[JSON/XML](pages/jsonxml.md)
+
+[ASM](pages/asm.md)
 
 [Links](pages/links.md)
 

@@ -16,6 +16,9 @@ virtualenv env_name
 <pre><code class="zsh">python3 -m venv env_name
 </code></pre>
 
+## pdb
+Python debugger
+
 ## Multitasking
 Somthing
 ### Libraries

@@ -27,3 +27,19 @@ Host MyGithub
     User hust921
     IdentityFile ~/.ssh/id_rsa
 </code></pre>
+
+
+## OpenSSL
+...
+
+## Nmap
+...
+
+## CURL
+...
+
+## dd
+...
+
+## netcat
+...
