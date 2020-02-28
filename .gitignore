@@ -105,3 +105,4 @@ sftp-config.json
 
 # Ignore en_US -> en soft-link for local debugging
 /en_US
+web.config
