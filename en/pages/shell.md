@@ -28,6 +28,9 @@ Host MyGithub
     IdentityFile ~/.ssh/id_rsa
 </code></pre>
 
+## Git
+### Git flow
+![git flow commands overview](../images/git-flow-commands.png)
 
 ## OpenSSL
 ...
