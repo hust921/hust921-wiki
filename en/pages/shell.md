@@ -33,16 +33,39 @@ Host MyGithub
 ![git flow commands overview](../images/git-flow-commands.png)
 
 ## OpenSSL
-...
+- To encode a file text.plain you can use: `openssl enc -base64 -in text.plain -out text.base64`
+- To decode a file the the decrypt option (-d) has to be used: `openssl enc -d -base64 -in text.base64 -out text.plain`
 
 ## Nmap
-...
+- Ping Scan `nmap -sP 10.0.0.0/24`
+- OS Detection `nmap -O`
+- Resolve Hostnames `nmap -sL`
+- Try TCP Connection `nmap -sT`
+- Fast (common 100 ports) `nmap -T4 -F`
+- Aggressive `nmap -A`
+- Service Versions (eg: OPENSSH 4.3) `nmap -Sv`
+- TCP ACK & SYN `nmap -PS`
+- Stealth Scan `nmap -sS`
 
 ## CURL
+- Write to file `-o <file>`
+- HTTP Method `-X POST`
+- Data `-d '{"var": "value"} ..'`
+- Data file `-d @file`
+- User Agent `-A 'gecko etc..'`
+- Header `-H "SoapAction: MyMethod"`
+- Ignore SSL `-k` or `--insecure`
+- Auth (basic) `-u user:pass`
+
+## netcat
+- Connect to server `nc <host> <port>`
+- Listen on port `nc -l 0.0.0.0 8080`
+- Execute shell `nc -l 0.0.0.0 8080 -e /bin/bash`
+- Transmit file: `nc [host] [port] < filename.in` Receive file: `nc [host] [port] > filename.out`
+- Continue after client disconnect `nc -k -l ..`
+
+## rsync
 ...
 
 ## dd
-...
-
-## netcat
 ...
