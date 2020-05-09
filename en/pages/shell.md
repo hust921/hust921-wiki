@@ -29,6 +29,9 @@ Host MyGithub
 </code></pre>
 
 ## Git
+### Git Server (no deps)
+[Git init --bare](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server)
+
 ### Git flow
 ![git flow commands overview](../images/git-flow-commands.png)
 
