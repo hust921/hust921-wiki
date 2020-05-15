@@ -35,6 +35,44 @@ Host MyGithub
 ### Git flow
 ![git flow commands overview](../images/git-flow-commands.png)
 
+## Docker & docker-compose
+### Docker
+**List Running Containers**
+<pre><code class="bash">docker ps
+</code></pre>
+
+**List Docker Volumes**
+<pre><code class="bash">docker volume ls
+docker volume inspect <optional-container-name>
+</code></pre>
+
+**List Installed Images**
+<pre><code class="bash">docker image ls
+</code></pre>
+
+**See (live) logs (shell output) from running container**
+<pre><code class="bash">docker logs --follow <container-name>
+</code></pre>
+
+**Open shell in RUNNING container**
+<pre><code class="bash">docker exec -it <container-name> bash
+</code></pre>
+
+### docker-compose
+[docker-compose](https://docs.docker.com/compose/) Compose is a tool for defining and running multi-container Docker applications.
+
+**Build images / services**
+<pre><code class="bash">docker-compose build --pull
+</code></pre>
+
+**Run upgrade?**
+<pre><code class="bash">docker-compose run --rm <container-name> upgrade
+</code></pre>
+
+**Start services**
+<pre><code class="bash">docker-compose up -d <option: --remove-orphans>
+</code></pre>
+
 ## OpenSSL
 - To encode a file text.plain you can use: `openssl enc -base64 -in text.plain -out text.base64`
 - To decode a file the the decrypt option (-d) has to be used: `openssl enc -d -base64 -in text.base64 -out text.plain`
