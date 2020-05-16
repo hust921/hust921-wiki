@@ -58,18 +58,22 @@ docker volume inspect <optional-container-name>
 <pre><code class="bash">docker exec -it <container-name> bash
 </code></pre>
 
+**Dockerfile build argument (ARG myArg=defaultValue)**
+<pre><code class="bash">docker build -t <dockerfile> --build-arg myArg=otherValue .
+</code></pre>
+
 ### docker-compose
 [docker-compose](https://docs.docker.com/compose/) Compose is a tool for defining and running multi-container Docker applications.
 
-**Build images / services**
+**Build or rebuild service**
 <pre><code class="bash">docker-compose build --pull
 </code></pre>
 
-**Run upgrade?**
-<pre><code class="bash">docker-compose run --rm <container-name> upgrade
+**Run <cmd> in container, (--rm) remove container after <cmd> is done**
+<pre><code class="bash">docker-compose run --rm <container-name> <cmd<cmd>
 </code></pre>
 
-**Start services**
+**Create and start containers**
 <pre><code class="bash">docker-compose up -d <option: --remove-orphans>
 </code></pre>
 
