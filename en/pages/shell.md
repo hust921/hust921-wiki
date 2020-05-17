@@ -39,6 +39,7 @@ Host MyGithub
 ### Docker
 **List Running Containers**
 <pre><code class="bash">docker ps
+docker ps -a # Shows prev runs too
 </code></pre>
 
 **List Docker Volumes**
@@ -56,6 +57,18 @@ docker volume inspect <optional-container-name>
 
 **Open shell in RUNNING container**
 <pre><code class="bash">docker exec -it <container-name> bash
+</code></pre>
+
+**Create container from image and run command**
+*This will not make changes to the image. But the container created can be found using* `docker ps -a` *and committed to new image with* `docker commit`.
+<pre><code class="bash">docker run <image_id> <myCommand>
+# example (using image tag)
+docker run -t mytag ping www.example.com
+</code></pre>
+
+**Commit changes made to container and save a new image**
+<pre><code class="bash">docker ps -a 
+docker commit <container_id> <new_image_name>:<tag_name(optional)>
 </code></pre>
 
 **Dockerfile build argument (ARG myArg=defaultValue)**
