@@ -44,7 +44,7 @@ docker ps -a # Shows prev runs too
 
 **List Docker Volumes**
 <pre><code class="bash">docker volume ls
-docker volume inspect <optional-container-name>
+docker volume inspect &lt;optional-container-name&gt;
 </code></pre>
 
 **List Installed Images**
@@ -52,27 +52,27 @@ docker volume inspect <optional-container-name>
 </code></pre>
 
 **See (live) logs (shell output) from running container**
-<pre><code class="bash">docker logs --follow <container-name>
+<pre><code class="bash">docker logs --follow &lt;container-name&gt;
 </code></pre>
 
 **Open shell in RUNNING container**
-<pre><code class="bash">docker exec -it <container-name> bash
+<pre><code class="bash">docker exec -it &lt;container-name&gt; bash
 </code></pre>
 
 **Create container from image and run command**
 *This will not make changes to the image. But the container created can be found using* `docker ps -a` *and committed to new image with* `docker commit`.
-<pre><code class="bash">docker run <image_id> <myCommand>
+<pre><code class="bash">docker run &lt;image_id&gt; &lt;myCommand&gt;
 # example (using image tag)
 docker run -t mytag ping www.example.com
 </code></pre>
 
 **Commit changes made to container and save a new image**
 <pre><code class="bash">docker ps -a 
-docker commit <container_id> <new_image_name>:<tag_name(optional)>
+docker commit &lt;container_id&gt; &lt;new_image_name&gt;:&lt;tag_name(optional)&gt;
 </code></pre>
 
 **Dockerfile build argument (ARG myArg=defaultValue)**
-<pre><code class="bash">docker build -t <dockerfile> --build-arg myArg=otherValue .
+<pre><code class="bash">docker build -t &lt;dockerfile&gt; --build-arg myArg=otherValue .
 </code></pre>
 
 ### docker-compose
@@ -83,11 +83,11 @@ docker commit <container_id> <new_image_name>:<tag_name(optional)>
 </code></pre>
 
 **Run <cmd> in container, (--rm) remove container after <cmd> is done**
-<pre><code class="bash">docker-compose run --rm <container-name> <cmd<cmd>
+<pre><code class="bash">docker-compose run --rm &lt;container-name&gt; &lt;cmd&gt;
 </code></pre>
 
 **Create and start containers**
-<pre><code class="bash">docker-compose up -d <option: --remove-orphans>
+<pre><code class="bash">docker-compose up -d &lt;option: --remove-orphans&gt;
 </code></pre>
 
 ## OpenSSL
