@@ -31,6 +31,8 @@
 
 [Links](pages/links.md)
 
+[Checklist](pages/checklist.html)
+
 [About]()
 
   * # hust921
