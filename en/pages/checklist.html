@@ -1,5 +1,7 @@
 <html>
 <head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+
 <style>
 *{	margin:0;	padding:0; }
 
@@ -11,18 +13,15 @@ body{
     font-size:26;
 }
 
-
 /*HEADER*/
 h1{text-align:center;}
 hr{margin-left:10px;margin-right:10px;}
-a{color:#fff;}
-a:hover{color:#78e7d1;}
 
 
 /*WRAPPER*/
-#wrapper{ padding-left:35%; margin: 40px auto 0; }
-#wrapper > div{	margin-bottom:10px;	}
-
+#wrapper{ text-align:center; margin: 40px auto 0; }
+#wrapper > div{ margin-bottom:10px; }
+.textwrapper{ text-align:left; display:inline-block; overflow:visible;}
 
 /*CHECKBOX*/
 input{ display:none; }
@@ -34,107 +33,117 @@ label div{
     border:2px solid #fff;
     text-align:center;
     line-height:20px;
-    margin-right:6px;	
+    margin-right:6px;
     border-radius:3px;
-    cursor:pointer;	
+    cursor:pointer;
 }
 
 h1{text-align:center;}
-.back-btn{
+.back-btn-wrap{
     float:left;
     display:inline-block;
     padding-left: 10px;
+}
+.back-btn-wrap a{
     text-decoration: none;
     font-size: 50px;
-    font-family: 'Kalam';
+    padding: 10px 50px;
+    color:#fff;
+}
+.back-btn-wrap a:hover{
+    color:#000;
 }
 
-label i{ font-size:16px;	opacity:0; }
-label:hover div{ background:#16a085; }
-input:checked+label i{ opacity:1; }
-input:checked+label div{ background:#16a085; }
+label i{ font-size:20px; opacity:0; }
+input:checked+label i{ text-align: center; opacity:1; color:#eee;}
+input:hover+label i{ opacity:1; color:#000;}
+input:checked+label i{ color:#eee;}
+.checkdev:hover{color:#000;}
 </style>
 </head>
 <body>
 <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	
-  	
-  <a class="back-btn" href="https://hust921.github.io/hust921-wiki"><b>&#171;</b></a>
+
+  <div class="back-btn-wrap">
+      <a class="back-btn" href="https://hust921.github.io/hust921-wiki"><i class="fa fa-arrow-circle-left"></i></a>
+  </div>
+
   <h1>Code Checklist <i class="fa fa-check"></i> </h1>
   <hr style="color:#fff">
     
   <div id="wrapper">
-  
-  	<div>
+  <div class="textwrapper">
+  	<div class="checkdev">
         <input type="checkbox" id="check1"/>
         <label for="check1">
           <div><i class="fa fa-check"></i></div> Does the code work?
         </label>
     </div>
     
-    <div>
+  	<div class="checkdev">
         <input type="checkbox" id="check2"/>
         <label for="check2">
           <div><i class="fa fa-check"></i></div> Does Error Handling work?
         </label>
     </div>
     
-    <div>
+  	<div class="checkdev">
         <input type="checkbox" id="check3"/>
         <label for="check3">
             <div><i class="fa fa-check"></i></div> <b>Test Coverage:</b> Logic Code?
         </label>
     </div>
     
-    <div>
+  	<div class="checkdev">
         <input type="checkbox" id="check4"/>
         <label for="check4">
             <div><i class="fa fa-check"></i></div> <b>Test Coverage:</b> Error Handling?
         </label>
     </div>
     
-    <div>
+  	<div class="checkdev">
         <input type="checkbox" id="check5"/>
         <label for="check5">
           <div><i class="fa fa-check"></i></div> Is there sufficient logging?
         </label>
     </div>
     
-    <div>
+  	<div class="checkdev">
         <input type="checkbox" id="check6"/>
         <label for="check6">
           <div><i class="fa fa-check"></i></div> Are return values checked?
         </label>
     </div>
     
-    <div>
+  	<div class="checkdev">
         <input type="checkbox" id="check7"/>
         <label for="check7">
           <div><i class="fa fa-check"></i></div> Any //TODO comments or NotImplementedException?
         </label>
     </div>
     
-    <div>
+  	<div class="checkdev">
         <input type="checkbox" id="check8"/>
         <label for="check8">
           <div><i class="fa fa-check"></i></div> <b>Documentation:</b> Are internal structures &#38; algorithms commented?
         </label>
     </div>
     
-    <div>
-        <input type="checkbox" id="check8"/>
-        <label for="check8">
+  	<div class="checkdev">
+        <input type="checkbox" id="check9"/>
+        <label for="check9">
           <div><i class="fa fa-check"></i></div> <b>Documentation:</b> Is CI/Deployment properly documented?
         </label>
     </div>
-    <div>
-        <input type="checkbox" id="check8"/>
-        <label for="check8">
+  	<div class="checkdev">
+        <input type="checkbox" id="check10"/>
+        <label for="check10">
           <div><i class="fa fa-check"></i></div> <b>Documentation:</b> Is API properly documented?
         </label>
     </div>
-   
+
+  </div>
   </div>
 </body>
 </html>
