@@ -21,6 +21,8 @@
 
 [Exploit](pages/exploit.md)
 
+[SQL](pages/sql.md)
+
 [C](pages/c.md)
 
 [Rust](pages/rust.md)
