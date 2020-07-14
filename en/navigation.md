@@ -15,6 +15,8 @@
 
 [Shell](pages/shell.md)
 
+[WSL](pages/wsl.md)
+
 [Vim](pages/vim.md)
 
 [Microsoft](pages/microsoft.md)

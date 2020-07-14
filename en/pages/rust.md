@@ -1,5 +1,17 @@
 # Rust
 
+## ctags
+[Universal Ctags](https://github.com/universal-ctags/ctags) is ctags with rust support
+```bash
+sudo apt update && sudo apt install gcc make pkg-config autoconf automake python3-docutils libseccomp-dev libjansson-dev libyaml-dev libxml2-dev
+cd $(mktemp -d /tmp/universal-ctags-XXXXXXXXX)
+git clone https://github.com/universal-ctags/ctags
+cd ctags
+./autogen.sh
+./configure
+sudo make && sudo make install
+```
+
 ## Crates
 - [Clap](https://github.com/clap-rs/clap) Argument Parsing
 - [Colored](https://github.com/mackwic/colored) Coloring terminal so simple
