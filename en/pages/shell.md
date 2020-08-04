@@ -28,6 +28,23 @@ Host MyGithub
     IdentityFile ~/.ssh/id_rsa
 </code></pre>
 
+## Self-Signed Certificate
+crt and key files represent both parts of a certificate, key being the private key to the certificate and crt being the signed certificate.
+
+It's only one of the ways to generate certs, another way would be having both inside a pem file or another in a p12 container.
+
+You have several ways to generate those files, if you want to self-sign the certificate you can just issue this commands
+
+<pre><code class="bash">openssl genrsa 2048 > host.key
+chmod 400 host.key
+openssl req -new -x509 -nodes -sha256 -days 365 -key host.key -out host.cert
+</code></pre>
+<br/>
+
+> *Image: Self-Signed Certificate explanation*
+
+![Self-Signed Certificate explanation](../images/self-signed-certificate.PNG))
+
 ## Git
 ### Git Server (no deps)
 [Git init --bare](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server)
