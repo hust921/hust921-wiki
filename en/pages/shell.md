@@ -39,9 +39,8 @@ You have several ways to generate those files, if you want to self-sign the cert
 chmod 400 host.key
 openssl req -new -x509 -nodes -sha256 -days 365 -key host.key -out host.cert
 </code></pre>
-<br/>
 
-> *Image: Self-Signed Certificate explanation*
+*Image: Self-Signed Certificate explanation*
 
 ![Self-Signed Certificate explanation](../images/self-signed-certificate.PNG))
 
