@@ -12,6 +12,10 @@ cd ctags
 sudo make && sudo make install
 ```
 
+## Tools Crates
+- [Cargo Bloat](https://github.com/RazrFalcon/cargo-bloat) Find out what takes most of the space in your executable.
+- [Cargo LLVM Lines](https://github.com/dtolnay/cargo-llvm-lines) Count the number of lines of LLVM IR across all instantiations of a generic function.
+
 ## Crates
 - [Clap](https://github.com/clap-rs/clap) Argument Parsing
 - [Colored](https://github.com/mackwic/colored) Coloring terminal so simple
