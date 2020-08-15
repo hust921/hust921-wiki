@@ -17,6 +17,7 @@ sudo make && sudo make install
 - [Cargo LLVM Lines](https://github.com/dtolnay/cargo-llvm-lines) Count the number of lines of LLVM IR across all instantiations of a generic function.
 
 ## Crates
+- [Rustyline](https://crates.io/crates/rustyline/) Readline implementation in Rust. Use arrows, backspace, etc when reading stdin
 - [Clap](https://github.com/clap-rs/clap) Argument Parsing
 - [Colored](https://github.com/mackwic/colored) Coloring terminal so simple
 - [reqwest](https://github.com/seanmonstar/reqwest) Batteries included HTTP Client
