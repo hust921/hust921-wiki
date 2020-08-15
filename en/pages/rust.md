@@ -36,5 +36,8 @@ sudo make && sudo make install
 - [threadpool](https://github.com/rust-threadpool/rust-threadpool) A thread pool for running a number of jobs on a fixed set of worker threads
 - [parking_lot](https://github.com/Amanieu/parking_lot) Faster thread-safe *primitives*: `Mutex`, `RwLock`, `Once`, etc
 
+## Code samples
+- [C# LINQ a-alike samples](https://gist.github.com/leonardo-m/6e9315a57fe9caa893472c2935e9d589)
+
 ## Frameworks
 - [Amethyst](https://github.com/amethyst/amethyst) data-driven and data-oriented game engine. Using an (Entity Component System) ECS Model
