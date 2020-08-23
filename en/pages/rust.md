@@ -15,6 +15,8 @@ sudo make && sudo make install
 ## Tools Crates
 - [Cargo Bloat](https://github.com/RazrFalcon/cargo-bloat) Find out what takes most of the space in your executable.
 - [Cargo LLVM Lines](https://github.com/dtolnay/cargo-llvm-lines) Count the number of lines of LLVM IR across all instantiations of a generic function.
+- [Just](https://github.com/casey/just) Simple  `make` without build-system. `just` is a handy way to save and run project-specific commands.
+- [Cargo make](https://github.com/sagiegurari/cargo-make) Rust task runner and build tool.
 
 ## Crates
 - [Rustyline](https://crates.io/crates/rustyline/) Readline implementation in Rust. Use arrows, backspace, etc when reading stdin
