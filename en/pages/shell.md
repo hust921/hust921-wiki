@@ -21,11 +21,16 @@ Now place `id_rsa.pub` on the server.
 To automatically use key, setup `ssh-agent` to run in bashrc/zshrc/etc.
 
 And modify your ssh config `~/.ssh/config`. Able to add multiple users (Host) to the same domain.
-<pre><code class="bash">
-Host MyGithub
+<pre><code class="bash">Host MyGithub
     HostName github.com
     User hust921
     IdentityFile ~/.ssh/id_rsa
+
+Host *
+    Compression yes
+    ServerAliveInterval 20
+    ServerAliveCountMax 50
+    LogLevel INFO
 </code></pre>
 
 ## Self-Signed Certificate
