@@ -1,4 +1,9 @@
-# Shell
+# [Shellexplain](https://explainshell.com/)
+
+## Reminders
+- Run multiple *@# in the background: `bash -c 'cargo install bat fd-find >> /dev/null' &`
+- Remotely or run after terminal close: `nohup bash -c 'cargo install bat fd-find >> /dev/null' &`
+- **TODO:** [ . ] Work notes here *<<------*
 
 ## SSH-Key login
 **Generate key**

@@ -1,6 +1,25 @@
 # Links
 
-## Downloads
+## Websites
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=xahlee.info) [**Unicode**](http://xahlee.info/comp/unicode_index.html) Unicode Library
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=shields.io) [**Shields**](https://shields.io/) ![shield example](https://img.shields.io/static/v1?label=Shields&message=and_Badges_for_your_projects&color=red)
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=ninite.com) [**Ninite**](https://ninite.com/) Install all the stuff!
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://blogtrottr.com/) [**BlogTrottr**](https://blogtrottr.com/) RSS Feed to EMail
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://separator.mayastudios.com/index.php?t=horz) [**--------------**](https://separator.mayastudios.com/index.php?t=horz) Browser fav.icon deviders/seperators
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://app.hellofax.com/) [**HelloFax**](https://app.hellofax.com/) Free online faxing
+
+## Windows Software
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://lockhunter.com/) [**lockhunter**](https://lockhunter.com/) Tool for unblocking and deleting blocked files
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/NuGetPackageExplorer/) [**NuGet Package-Explorer**](https://github.com/NuGetPackageExplorer/) Tool for creating and exploring NuGet packages
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://www.qbittorrent.org/) [**qBittorrent**](https://www.qbittorrent.org/) The good one
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://sourceforge.net/projects/xming/) [**Xming**](https://sourceforge.net/projects/xming/) X Windows System Server for Windows
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://www.microsoft.com/en-us/download/details.aspx?id=15155) [**SyncToy**](https://www.microsoft.com/en-us/download/details.aspx?id=15155) GUI Rsync for Windows. File synchronization/backup
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://www.filebot.net/) [**Filebot**](https://www.filebot.net/) Ultimate tool for organizing and renaming Movies, shows. Fetching subtitles and artwork
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://kdenlive.org/en/) [**Kdenlive**](https://kdenlive.org/en/) Open Source video editor
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=http://www.dvdflick.net/) [**DVD Flick**](http://www.dvdflick.net/) DVD Rip, Burn and Edit
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://crystalmark.info/en/software/crystaldiskinfo/) [**Crystal Disk Info**](https://crystalmark.info/en/software/crystaldiskinfo/) SMART+ more Harddisk statistics/diagnostics tool
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://qcad.org/en/) [**QCAD**](https://qcad.org/en/) Autocad for free
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://www.majorgeeks.com/files/details/icaros.html) [**Icaros**](https://www.majorgeeks.com/files/details/icaros.html) Windows Explorer thumbnails, ffmpeg-backend, custom Cover Art, etc
 
 ## Shell Tools
 - [**fd**](https://github.com/sharkdp/fd) find alternative
