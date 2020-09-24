@@ -1,4 +1,9 @@
-# Shell
+# [Shellexplain](https://explainshell.com/)
+
+## Reminders
+- Run multiple *@# in the background: `bash -c 'cargo install bat fd-find >> /dev/null' &`
+- Remotely or run after terminal close: `nohup bash -c 'cargo install bat fd-find >> /dev/null' &`
+- **TODO:** [ . ] Work notes here *<<------*
 
 ## SSH-Key login
 **Generate key**
@@ -144,7 +149,23 @@ docker commit &lt;container_id&gt; &lt;new_image_name&gt;:&lt;tag_name(optional)
 - Continue after client disconnect `nc -k -l ..`
 
 ## rsync
-...
+**Example:** Copy local directory to external server. (Using ssh, port 1337)
+```bash
+rsync -av –delete -e 'ssh -p 1337' /Directory1/ geek@192.168.235.137:/Directory2/
+```
+
+### Args
+| Short          | Long         | Description  |
+| :------------- | :----------: | -----------: |
+| -a | --archive | archive files and directory while synchronizing ( -a equal to following options -rlptgoD) |
+| -z | --compress | compress file data during the transfer |
+| -r | --recursive | sync files and directories recursively |
+| -u | --update | don’t copy the files from source to destination if destination files are newer |
+| -l | --links  | copy symlinks as symlinks during the sync |
+| -n | --dry-run | perform a trial run without synchronization |
+| -h | --human-readable | display the output numbers in a human-readable format |
+|    | --progress | show the sync progress during transfer |
+|    | --exclude | --exclude=PATTERN Exclude files matching PATTERN |
 
 ## dd
 ...
