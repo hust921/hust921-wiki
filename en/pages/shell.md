@@ -54,6 +54,32 @@ openssl req -new -x509 -nodes -sha256 -days 365 -key host.key -out host.cert
 
 ![Self-Signed Certificate explanation](../images/self-signed-certificate.PNG))
 
+## Dynamically load nvm, node & npm
+Put this in your `.zshrc` or `.zshlocal.zsh`. Or `.bashrc` etc.
+
+```bash
+nvm() {
+    unset -f nvm
+    export NVM_DIR=~/.nvm
+    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+    nvm "$@"
+}
+ 
+node() {
+    unset -f node
+    export NVM_DIR=~/.nvm
+    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+    node "$@"
+}
+ 
+npm() {
+    unset -f npm
+    export NVM_DIR=~/.nvm
+    [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+    npm "$@"
+}
+```
+
 ## Git
 ### Git Server (no deps)
 [Git init --bare](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server)
