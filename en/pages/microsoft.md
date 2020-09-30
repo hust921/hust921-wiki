@@ -3,6 +3,23 @@
 ## Visual Studio
 - **Turn on Verbose debug:** `Tools -> Project & Solution -> Build & Run Options`
 
+
+## Right click: Open with Neovim
+![icon](https://s135.convertio.me/p/ywRSBgj9RAfCq-RIAO2PwA/3321a9b8437526c1d786bee32a723881/nvim-icon.ico)
+
+Replace `hust921` with whatever username
+```batch
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Open with Neovim]
+"Icon"="C:\\Users\\hust921\\Documents\\nvim.ico"
+"Position"="Top"
+@="Open with Neovim"
+
+[HKEY_CLASSES_ROOT\*\shell\Open with Neovim\Command]
+@="C:\\Users\\hust921\\AppData\\Local\\wsltty\\bin\\mintty.exe --WSL=\"Ubuntu\" --configdir=\"C:\\Users\\hust921\\AppData\\Roaming\\wsltty\" -t '%1' -e bash --login -c \"nvim \\\"$(wslpath '%1')\\\"\""
+```
+
 ## dotnet Core
 ...
 
