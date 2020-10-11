@@ -34,6 +34,19 @@ sudo make && sudo make install
 - [dirs](https://github.com/dirs-dev/dirs-rs) Cross-platform library. Provides platform-specific, user-accessible locations
 - [chrono](https://github.com/chronotope/chrono) Date and Time for Rust
 
+## Error Crates
+### Rule of thumb:
+- Application: **Anyhow.** Mostly unknown, reporting errors.
+- Library: **Thiserr.** Mostly stable, define and react to errors.
+
+### Crates
+- [Anyhow](https://crates.io/crates/anyhow) Provides `anyhow::Error`. A trait object based error type for easy idiomatic error handling in Rust.
+- [Thiserror](https://crates.io/crates/thiserror) `derive(Error)` Derive macro for the standard library's `std::error::Error` trait.
+- [Displaydoc](https://crates.io/crates/displaydoc) `derive(Display)` Derive macro for the standard library's `core::fmt::Display` trait.
+- [Snafu](https://crates.io/crates/snafu) **S**ituation **N**ormal: **A**ll **F**ouled **U**p. Assign domain-specific errors while adding context.
+- [Tracing-Error](https://crates.io/crates/tracing-error) Framework to collect structured, event-based diagnostic information.
+- [Extracterr](https://crates.io/crates/extracterr) Bundle context with errors and later extract said context thru `dyn Error` trait objects.
+
 ## Concurrency Crates
 - [tokio](https://github.com/tokio-rs/tokio) event-driven, non-blocking I/O platform for **async** Rust futures
 - [crossbeam](https://github.com/crossbeam-rs/crossbeam) Is a crate that provides a tool set for concurrent programming
