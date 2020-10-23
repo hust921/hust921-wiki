@@ -22,6 +22,7 @@
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://www.majorgeeks.com/files/details/icaros.html) [**Icaros**](https://www.majorgeeks.com/files/details/icaros.html) Windows Explorer thumbnails, ffmpeg-backend, custom Cover Art, etc
 
 ## Shell Tools
+- [**Markdown to slides**](https://github.com/partageit/markdown-to-slides) A command line interface to convert markdown documents to an HTML slideshow
 - [**fd**](https://github.com/sharkdp/fd) find alternative
 - [**rg**](https://github.com/BurntSushi/ripgrep) ripgrep, grep alternative
 - [**ag**](https://github.com/ggreer/the_silver_searcher) silver searcher, awk alternative
