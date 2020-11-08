@@ -31,6 +31,28 @@ Windows Registry Editor Version 5.00
 
 ## Powershell
 
+### Aliases
+*Reminder: get all using `alias`*
+```
+Alias           ? -> Where-Object
+Alias           % -> ForEach-Object
+
+Alias           select -> Select-Object
+Alias           sls -> Select-String
+
+Alias           gc/cat -> Get-Content
+Alias           gm     -> Get-Member
+```
+
+**Formatting:**
+```
+Alias           fc -> Format-Custom
+Alias           fl -> Format-List
+Alias           ft -> Format-Table
+Alias           fw -> Format-Wide
+Alias           fhx -> Format-Hex             7.0.0.0    Microsoft.PowerShell.Utility
+```
+
 ### Get-Member
 `Get-Member` or `gm` returns a `Microsoft.PowerShell.Commands.MemberDefinition` of any `PSObject` *piped* to it.
 
@@ -61,6 +83,34 @@ Get-ChildItem .\_vsvimrc -Name |gm
 # CompareTo        Method                int CompareTo(System.Object value), int CompareTo(string strB), int IComparable.CompareTo(System.Object obj), int ICompara…
 # Contains         Method                bool Contains(string value), bool Contains(string value, System.StringComparison comparisonType), bool Contains(char value…
 # ...
+```
+
+### CURL for Powershell
+**Basic:**
+```Powershell
+Invoke-WebRequest http://example.org
+# Or
+iwr http://example.org
+```
+
+**Raw body** (only/scriptable) variations:
+```Powershell
+(iwr http://example.org).Content
+iwr http://example.org | Write-Host -PipelineVariable $_.Content
+iwr http://example.org | Select-Object -Expand Content
+```
+
+**With header, body, POST:**
+```Powershell
+iwr http://example.org -Method POST -Headers @{"Content-Type" = "application/json"} -Body '{ "query":{ "query_string":{ "query":"any_string" } } }' | Select-Object -Expand Content
+```
+
+**Backtick version** (`\` newline for windows/powershell)
+```Powershell
+iwr http://example.org `
+  -Body '{ "query":{ "query_string":{ "query":"any_string" } } }' `
+  -Header @{"Content-Type" = "application/json"} `
+  | Select-Object -Expand Content
 ```
 
 ### Managing Windows Services
