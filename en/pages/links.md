@@ -20,6 +20,7 @@
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://crystalmark.info/en/software/crystaldiskinfo/) [**Crystal Disk Info**](https://crystalmark.info/en/software/crystaldiskinfo/) SMART+ more Harddisk statistics/diagnostics tool
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://qcad.org/en/) [**QCAD**](https://qcad.org/en/) Autocad for free
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://www.majorgeeks.com/files/details/icaros.html) [**Icaros**](https://www.majorgeeks.com/files/details/icaros.html) Windows Explorer thumbnails, ffmpeg-backend, custom Cover Art, etc
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://mark0.net/soft-tridnet-e.html) [**TrIDNet**](https://mark0.net/soft-tridnet-e.html) GUI version of TrID - Identify file types from their binary signatures
 
 ## Shell Tools
 - [**Markdown to slides**](https://github.com/partageit/markdown-to-slides) A command line interface to convert markdown documents to an HTML slideshow
