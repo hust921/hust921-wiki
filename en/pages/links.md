@@ -21,6 +21,7 @@
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://qcad.org/en/) [**QCAD**](https://qcad.org/en/) Autocad for free
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://www.majorgeeks.com/files/details/icaros.html) [**Icaros**](https://www.majorgeeks.com/files/details/icaros.html) Windows Explorer thumbnails, ffmpeg-backend, custom Cover Art, etc
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://mark0.net/soft-tridnet-e.html) [**TrIDNet**](https://mark0.net/soft-tridnet-e.html) GUI version of TrID - Identify file types from their binary signatures
+- ![](https://s2.googleusercontent.com/s2/favicons?domain=https://www.zynamics.com/bindiff.html) [**BinDiff**](https://www.zynamics.com/bindiff.html) BinDiff is a comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.
 
 ## Shell Tools
 - [**Markdown to slides**](https://github.com/partageit/markdown-to-slides) A command line interface to convert markdown documents to an HTML slideshow
