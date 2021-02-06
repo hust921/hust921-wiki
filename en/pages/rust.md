@@ -12,6 +12,9 @@ cd ctags
 sudo make && sudo make install
 ```
 
+## Cranelift
+Just install [**Cranelift**](https://github.com/bjorn3/rustc_codegen_cranelift)
+
 ## Ramdisk for compilation
 Using system memory for the `.target` directory.
 
