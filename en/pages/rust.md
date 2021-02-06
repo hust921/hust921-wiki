@@ -12,6 +12,17 @@ cd ctags
 sudo make && sudo make install
 ```
 
+## Ramdisk for compilation
+Using system memory for the `.target` directory.
+
+*Warning!* polutes fstab. Remember to clean once in a while!
+
+```bash
+mkdir -p target && \
+sudo mount -t tmpfs none ./target && \
+cat /proc/mounts | grep "$(pwd)" | sudo tee -a /etc/fstab
+```
+
 ## Tips / Tricks
 - Apply simple clippy fixes: `cargo clippy --fix -Z unstable-options`. Needs to be run without uncommitted changes (in git). Or can be overriden with: `--allow-dirty` or `--allow-staged`
 
