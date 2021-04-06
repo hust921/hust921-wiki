@@ -1,5 +1,9 @@
 # Vim
 
+## Pipe buffer to cmd and back
+- Using visual selection: `:'<,'>!xmllint --format -`
+- Entire file: `:%!xmllint --format %` or `%!jq .`
+
 ## Windows install
 1. [ Compiled with python 2 **&** 3](https://github.com/vim/vim-win32-installer/releases)
 - [Clang/LLVM](http://releases.llvm.org/download.html)
