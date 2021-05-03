@@ -3,6 +3,7 @@
 ## Reminders
 - Run multiple *@# in the background: `bash -c 'cargo install bat fd-find >> /dev/null' &`
 - Remotely or run after terminal close: `nohup bash -c 'cargo install bat fd-find >> /dev/null' &`
+- `$_` last argument. `$_:h/other.txt` last argument filename removed & `other.txt` added. eg: if `cat path/to/myfile` then `cat $_:h/other` results in `cat path/to/other`
 - **TODO:** [ . ] Work notes here *<<------*
 
 ## SSH-Key login
@@ -145,6 +146,30 @@ docker commit &lt;container_id&gt; &lt;new_image_name&gt;:&lt;tag_name(optional)
 ## OpenSSL
 - To encode a file text.plain you can use: `openssl enc -base64 -in text.plain -out text.base64`
 - To decode a file the the decrypt option (-d) has to be used: `openssl enc -d -base64 -in text.base64 -out text.plain`
+
+## Grep / ripgrep
+**Lookbehind:** with `(?<=)`
+```bash
+echo "ignore me" | grep -Po "(?<=ignore )me"
+me
+```
+
+
+**Lookbehind, variable length alternative** with `\K`
+
+Lookbehind, only supports **static** length strings. But a the PCRE extension `\K` can handle variable length lookbehind's.
+```bash
+echo "ignoreme, ignoresme" | grep -Po "ignores?\Kme"
+me
+me
+```
+
+
+**Lookahead:** with `(?=)`
+```bash
+echo "meignore" | grep -Po "me(?=ignore)"
+me
+```
 
 ## Nmap
 - Ping Scan `nmap -sP 10.0.0.0/24`
