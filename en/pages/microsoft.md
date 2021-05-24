@@ -20,6 +20,13 @@ Windows Registry Editor Version 5.00
 @="C:\\Users\\hust921\\AppData\\Local\\wsltty\\bin\\mintty.exe --WSL=\"Ubuntu\" --configdir=\"C:\\Users\\hust921\\AppData\\Roaming\\wsltty\" -t '%1' -e bash --login -c \"nvim \\\"$(wslpath '%1')\\\"\""
 ```
 
+Or without `wsltty`
+```batch
+[HKEY_CLASSES_ROOT\*\shell\Open with Neovim\Command]
+@="wsl -e bash --login -c \"nvim \\\"$(wslpath '%1')\\\"\""
+```
+
+
 ## dotnet Core
 ...
 
