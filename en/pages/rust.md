@@ -1,5 +1,12 @@
 # Rust
 
+## Neovim/vim8+ debugging (with gdb)
+```vimls
+:packadd termdebug
+:let termdebugger="rust-gdb"
+:Termdebug target/debug/<project_name>
+```
+
 ## ctags
 [Universal Ctags](https://github.com/universal-ctags/ctags) is ctags with rust support
 ```bash
