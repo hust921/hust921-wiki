@@ -7,6 +7,17 @@
 :Termdebug target/debug/<project_name>
 ```
 
+**Cargo.toml**
+```toml
+[profile.dev]
+opt-level = 0
+debug = true
+
+[profile.release]
+opt-level = 3
+debug = false
+```
+
 ## ctags
 [Universal Ctags](https://github.com/universal-ctags/ctags) is ctags with rust support
 ```bash
