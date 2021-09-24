@@ -16,7 +16,7 @@
 ssh-add ~/.ssh/id_rsa
 </code></pre>
 
-Now place `id_rsa.pub` on the server.
+Now append the content of `id_rsa.pub` on the server in `~/.ssh/authorized_keys`
 
 
 **Identify**
