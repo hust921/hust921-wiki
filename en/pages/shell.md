@@ -4,7 +4,8 @@
 - Run multiple *@# in the background: `bash -c 'cargo install bat fd-find >> /dev/null' &`
 - Remotely or run after terminal close: `nohup bash -c 'cargo install bat fd-find >> /dev/null' &`
 - `$_` last argument. `$_:h/other.txt` last argument filename removed & `other.txt` added. eg: if `cat path/to/myfile` then `cat $_:h/other` results in `cat path/to/other`
-- **TODO:** [ . ] Work notes here *<<------*
+- `tee $(tty)` will echo to STDOUT. Eg like printing intermediary steps: `.. | grep .. | tee $(tty) | xargs ...`
+- `until` command can be used like for repeating *until* it succeed. Like `which` with *"exit condition"*.
 
 ## SSH-Key login
 **Generate key**
