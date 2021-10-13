@@ -1,5 +1,8 @@
 # Microsoft
 
+## Microsoft
+- `Alt+Space, n` Open file-menu, **minimize** window
+
 ## Visual Studio
 - **Turn on Verbose debug:** `Tools -> Project & Solution -> Build & Run Options`
 
