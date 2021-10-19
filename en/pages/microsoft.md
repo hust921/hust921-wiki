@@ -2,6 +2,7 @@
 
 ## Microsoft
 - `Alt+Space, n` Open file-menu, **minimize** window
+- `Win+Shift+#` Open **another** instance of program. Where # is a number. eg: `Win+Shift+1` will do the same as `Win+1` but launch a **new** instance, instead of opening the existing
 
 ## Visual Studio
 - **Turn on Verbose debug:** `Tools -> Project & Solution -> Build & Run Options`
