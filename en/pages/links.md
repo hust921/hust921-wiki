@@ -9,6 +9,7 @@
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://app.hellofax.com/) [**HelloFax**](https://app.hellofax.com/) Free online faxing
 
 ## Windows Software
+- ![] (https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/2020_PowerToys_Icon.svg/1200px-2020_PowerToys_Icon.svg.png) [**PowerToys**](https://github.com/microsoft/PowerToys) To tune and streamline their Windows experience
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://lockhunter.com/) [**lockhunter**](https://lockhunter.com/) Tool for unblocking and deleting blocked files
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://github.com/NuGetPackageExplorer/) [**NuGet Package-Explorer**](https://github.com/NuGetPackageExplorer/) Tool for creating and exploring NuGet packages
 - ![](https://s2.googleusercontent.com/s2/favicons?domain=https://www.qbittorrent.org/) [**qBittorrent**](https://www.qbittorrent.org/) The good one
