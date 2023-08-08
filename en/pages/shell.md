@@ -1,6 +1,7 @@
 # [Shellexplain](https://explainshell.com/)
 
 ## Reminders
+- `journalctl -xeu <process>`: `x`: show all messages. `e`: start and end. `u`: systemd service to show
 - Run multiple *@# in the background: `bash -c 'cargo install bat fd-find >> /dev/null' &`
 - Remotely or run after terminal close: `nohup bash -c 'cargo install bat fd-find >> /dev/null' &`
 - `$_` last argument. `$_:h/other.txt` last argument filename removed & `other.txt` added. eg: if `cat path/to/myfile` then `cat $_:h/other` results in `cat path/to/other`
