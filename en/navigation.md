@@ -35,7 +35,11 @@
 
 [Links](pages/links.md)
 
-[Checklist](pages/checklist.html)
+[Checklists]()
+
+  * [CodeReview](pages/codechecklist.html)
+  * [FeatureLead](pages/featureleadchecklist.html)
+  * [SPE](pages/spechecklist.html)
 
 [About]()
 
