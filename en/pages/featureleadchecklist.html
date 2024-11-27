@@ -75,71 +75,102 @@ input:checked+label i{ color:#eee;}
   <div id="wrapper">
   <div class="textwrapper">
 
-  <h1>Before EPIC <i class="fa fa-check"></i> </h1>
+  <h1>Before Epic <i class="fa fa-check"></i> </h1>
 
   	<div class="checkdev">
         <input type="checkbox" id="check1"/>
         <label for="check1">
-          <div><i class="fa fa-check"></i></div> Are all tasks refined?
+          <div><i class="fa fa-check"></i></div> Are tasks refined?
+        </label>
+    </div>
+    <div class="checkdev">
+        <input type="checkbox" id="check2"/>
+        <label for="check2">
+          <div><i class="fa fa-check"></i></div> Is the branching strategy updated in the epic and repository?
+        </label>
+    </div>
+    <div class="checkdev">
+        <input type="checkbox" id="check3"/>
+        <label for="check3">
+          <div><i class="fa fa-check"></i></div> Should a Product Owner be appointed?
+        </label>
+    </div>
+    <div class="checkdev">
+        <input type="checkbox" id="check4"/>
+        <label for="check4">
+          <div><i class="fa fa-check"></i></div> For TS issues: Are you assigned, and is Jira aligned?
         </label>
     </div>
 
   <br />
   <hr style="color:#fff">
   <br />
-  <h1>During EPIC <i class="fa fa-check"></i> </h1>
-    
-  	<div class="checkdev">
-        <input type="checkbox" id="check2"/>
-        <label for="check2">
-          <div><i class="fa fa-check"></i></div> Are their any unsolved issue that are blocking?
-        </label>
-    </div>
-    
-  	<div class="checkdev">
-        <input type="checkbox" id="check3"/>
-        <label for="check3">
-            <div><i class="fa fa-check"></i></div> Are people taking too long to solve a task?
-        </label>
-    </div>
-    
-  	<div class="checkdev">
-        <input type="checkbox" id="check4"/>
-        <label for="check4">
-            <div><i class="fa fa-check"></i></div> Are the tasks correctly prioritized?
-        </label>
-    </div>
+  <h1>During Epic <i class="fa fa-check"></i> </h1>
     
   	<div class="checkdev">
         <input type="checkbox" id="check5"/>
         <label for="check5">
-          <div><i class="fa fa-check"></i></div> Are there any progress yesterday? And are you expecting progress today?
+          <div><i class="fa fa-check"></i></div> Are there any tasks stuck? Take action.
+        </label>
+    </div>
+    <div class="checkdev">
+        <input type="checkbox" id="check6"/>
+        <label for="check6">
+          <div><i class="fa fa-check"></i></div> Have you planned discussions for new problems?
         </label>
     </div>
 
   <br />
   <hr style="color:#fff">
   <br />
-  <h1>After EPIC <i class="fa fa-check"></i> </h1>
-    
-  	<div class="checkdev">
-        <input type="checkbox" id="check6"/>
-        <label for="check6">
-          <div><i class="fa fa-check"></i></div> Do all the necessary documentation exist?
-        </label>
-    </div>
+  <h1>Before Epic Release <i class="fa fa-check"></i> </h1>
     
   	<div class="checkdev">
         <input type="checkbox" id="check7"/>
         <label for="check7">
-          <div><i class="fa fa-check"></i></div> Are there any Azure security warnings/recommendations?
+          <div><i class="fa fa-check"></i></div> Does the release need coordination with a third party?
         </label>
     </div>
-    
-  	<div class="checkdev">
+    <div class="checkdev">
         <input type="checkbox" id="check8"/>
         <label for="check8">
-          <div><i class="fa fa-check"></i></div> Is there sufficient logging & metrics?
+          <div><i class="fa fa-check"></i></div> Are there vulnerabilities in Azure? Take action if any.
+        </label>
+    </div>
+    <div class="checkdev">
+        <input type="checkbox" id="check9"/>
+        <label for="check9">
+          <div><i class="fa fa-check"></i></div> Is the documentation sufficient?
+        </label>
+    </div>
+    <div class="checkdev">
+        <input type="checkbox" id="check10"/>
+        <label for="check10">
+          <div><i class="fa fa-check"></i></div> Should a production release be monitored?
+        </label>
+    </div>
+
+  <br />
+  <hr style="color:#fff">
+  <br />
+  <h1>After Epic <i class="fa fa-check"></i> </h1>
+    
+  	<div class="checkdev">
+        <input type="checkbox" id="check11"/>
+        <label for="check11">
+          <div><i class="fa fa-check"></i></div> Is the epic marked as Done in Jira?
+        </label>
+    </div>
+    <div class="checkdev">
+        <input type="checkbox" id="check12"/>
+        <label for="check12">
+          <div><i class="fa fa-check"></i></div> Does a related epic need refinement?
+        </label>
+    </div>
+    <div class="checkdev">
+        <input type="checkbox" id="check13"/>
+        <label for="check13">
+          <div><i class="fa fa-check"></i></div> Are there any loose ends to tie up?
         </label>
     </div>
 
