@@ -15,6 +15,8 @@
 
 [Shell](pages/shell.md)
 
+[Docker](pages/docker.md)
+
 [WSL](pages/wsl.md)
 
 [Vim](pages/vim.md)
